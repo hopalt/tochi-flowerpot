@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en" data-ko-page="../ko/privacy/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffcf4">
+  <title>Privacy Policy — Tochi's Flowerpot</title>
+  <meta name="description" content="Privacy Policy for the Tochi's Flowerpot app: what is processed, the world ranking, Unity Ads, retention and deletion, and your rights.">
+  <link rel="canonical" href="https://tochi-flowerpot.hopalt.com/privacy/">
+  <link rel="alternate" hreflang="en" href="https://tochi-flowerpot.hopalt.com/privacy/">
+  <link rel="alternate" hreflang="ko" href="https://tochi-flowerpot.hopalt.com/ko/privacy/">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@400;700;800&display=swap">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script src="../assets/lang.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Main navigation">
+    <a class="brand" href="../"><img src="../assets/app-icon.webp" alt="">Tochi's Flowerpot</a>
+    <div class="nav-links"><a href="../">Home</a><a href="mailto:hopalt@gmail.com">Contact</a></div>
+    <div class="languages" aria-label="Language"><a aria-current="page" href="./" data-lang="en">EN</a><a href="../ko/privacy/" data-lang="ko">한국어</a></div>
+  </nav>
+</header>
+
+<main class="policy wrap">
+  <p class="eyebrow">Tochi's Flowerpot</p>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: October 21, 2026 · Operator: Hopalt · Contact: <a href="mailto:hopalt@gmail.com">hopalt@gmail.com</a> · Package: com.hopalt.moablock</p>
+
+  <div class="notice">
+    <strong>In short</strong>
+    <ul>
+      <li>There is no sign-up or log-in screen, and the app never asks for your name, email, phone number or location.</li>
+      <li>Your game progress and stage records are stored only on your device.</li>
+      <li>For the world ranking, a random anonymous ID, a nickname, a country code, your effort score and the number of stages you bloomed are stored with Firebase (Google). You can delete them from the Records tab.</li>
+      <li>Ads are served by Unity Ads. Unity processes your advertising ID, device information and similar data under its own policy.</li>
+    </ul>
+  </div>
+
+  <nav class="toc" aria-label="Contents">
+    <ol>
+      <li><a href="#items">What we process and why</a></li>
+      <li><a href="#ranking">World ranking</a></li>
+      <li><a href="#ads">Advertising (Unity Ads)</a></li>
+      <li><a href="#retention">Retention and deletion</a></li>
+      <li><a href="#transfer">Service providers and international transfers</a></li>
+      <li><a href="#permissions">App permissions</a></li>
+      <li><a href="#rights">Your rights</a></li>
+      <li><a href="#children">Children's privacy</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#officer">Privacy contact and complaints</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="items">1. What we process and why</h2>
+  <p>Hopalt (“we”) operates the Tochi's Flowerpot app (the “app”) and processes only the information below. We do not ask for or collect your name, email address, phone number, precise location, contacts or photos.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Category</th><th>Data</th><th>Purpose</th><th>Where it is stored</th></tr></thead>
+    <tbody>
+      <tr><td>On the device</td><td>Cleared stages; per-stage tries, undos, play time and first-clear time; water drops, seeds and bloomed flowers; settings (music, vibration, field guide, language)</td><td>Saving your progress and showing your records</td><td>Your device (never sent to us)</td></tr>
+      <tr><td>World ranking</td><td>Anonymous user ID, nickname, country code, effort score, number of stages bloomed, last update time</td><td>Showing the world ranking, calculating ranks, preventing invalid scores</td><td>Google Firebase (Cloud Firestore in Seoul, Firebase Authentication)</td></tr>
+      <tr><td>Service logs</td><td>IP address, device and app information (user agent), access time</td><td>Securing anonymous sign-in and preventing abuse</td><td>Google Firebase</td></tr>
+      <tr><td>Advertising</td><td>Advertising ID (Android advertising ID, iOS IDFA), device model, operating system and language, IP address and an approximate location derived from it, ad impressions and clicks</td><td>Showing and measuring ads, personalised ads, ad fraud prevention</td><td>Unity Technologies</td></tr>
+    </tbody>
+  </table></div>
+  <p>This information is processed automatically while the app runs. You may choose your own nickname; otherwise the app creates one.</p>
+
+  <h2 id="ranking">2. World ranking</h2>
+  <p>The first time the app runs, it signs in anonymously with Firebase Authentication and receives a randomly generated anonymous user ID. One ranking entry is created under that ID.</p>
+  <ul>
+    <li><strong>Nickname:</strong> At first it is made from your country code and random digits, such as “Tochi_KR_1234”. You can choose a name of 2–12 characters once.</li>
+    <li><strong>Country code:</strong> Taken from the region of your device's language setting (for example, KR). GPS or other location data is not used.</li>
+    <li><strong>Effort score and stages bloomed:</strong> The total of your tries on stages you finished without the field guide (hint), counting at most 20 per stage, and the number of those stages. They are calculated from the game records on your device.</li>
+    <li><strong>What other players see:</strong> The ranking list shows nicknames, country flags, effort scores and stages bloomed. Anonymous user IDs are never shown.</li>
+    <li><strong>Deleting:</strong> Tapping “Delete my ranking entry” in the Records tab removes your ranking entry from the server immediately. When you open the app again, a new entry starting from zero is created automatically under the same anonymous ID. To stop appearing in the ranking altogether, uninstall the app and email us to delete your anonymous account.</li>
+  </ul>
+  <p>Without an internet connection, or if the ranking server cannot be reached, only the ranking is hidden; the game keeps working.</p>
+
+  <h2 id="ads">3. Advertising (Unity Ads)</h2>
+  <p>The app shows ads through Unity Ads by Unity Technologies: banner ads below the lists and above the board, and a full-screen ad when you open the field guide (hint). The app is registered with Unity Ads as not directed to children.</p>
+  <p>Unity processes the advertising data in Section 1 directly to select and measure ads and prevent fraud, and may use it for personalised ads. This data is managed by Unity, not by us, under the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener noreferrer">Unity Game Player and App User Privacy Policy</a>.</p>
+  <h3>Opting out of personalised ads</h3>
+  <ul>
+    <li>Android: Settings → Security and privacy (or Google) → Ads, then delete or reset your advertising ID.</li>
+    <li>iOS: Settings → Privacy &amp; Security → Tracking, and do not allow the app to request tracking.</li>
+    <li>The Privacy button shown on Unity ads lets you change Unity's data settings.</li>
+  </ul>
+  <p>If you opt out, you will still see ads, but they will be less related to your interests.</p>
+
+  <h2 id="retention">4. Retention and deletion</h2>
+  <ul>
+    <li><strong>On-device records:</strong> Deleted immediately when you uninstall the app or clear its data in your device settings. We cannot access them.</li>
+    <li><strong>Ranking entry:</strong> Kept until you delete it, ask us to delete it, or we end the ranking service, and then deleted without delay.</li>
+    <li><strong>Anonymous account:</strong> Deleted from Firebase Authentication when you ask us. Google keeps IP address logs for a few weeks for sign-in security, and removes deleted account data from its systems within a set period (see <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Privacy and Security in Firebase</a>).</li>
+    <li><strong>Advertising data:</strong> Kept by Unity according to its policy and applicable law.</li>
+  </ul>
+
+  <h2 id="transfer">5. Service providers and international transfers</h2>
+  <p>We do not sell your personal information or provide it to third parties. We use the services below to run the app, and some data is processed outside Korea. Data is sent over encrypted connections while you use the app.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Recipient (contact)</th><th>Country</th><th>Data</th><th>Purpose</th><th>Retention</th></tr></thead>
+    <tbody>
+      <tr><td>Google LLC — Firebase Authentication<br><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">firebase.google.com/support/privacy</a></td><td>United States and other countries with Google data centres</td><td>Anonymous user ID, IP address, device and app information</td><td>Anonymous sign-in, security and abuse prevention</td><td>Until the account is deleted (IP logs: a few weeks)</td></tr>
+      <tr><td>Google LLC — Cloud Firestore</td><td>Republic of Korea (Seoul, asia-northeast3)</td><td>World ranking data in Section 1</td><td>Storing and showing the ranking</td><td>As in Section 4</td></tr>
+      <tr><td>Unity Technologies<br><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener noreferrer">Unity privacy policy</a></td><td>United States and other countries with Unity servers</td><td>Advertising data in Section 1</td><td>Showing and measuring ads, personalised ads, fraud prevention</td><td>Under Unity's policy</td></tr>
+    </tbody>
+  </table></div>
+  <p>If you do not want your data processed abroad, you can stop using and uninstall the app. The app's features, including the world ranking and ads, will then be unavailable.</p>
+
+  <h2 id="permissions">6. App permissions</h2>
+  <p>The app does not request location, camera, microphone, contacts, or photo and file access. The Android app includes the permissions below; all are normal permissions granted at install.</p>
+  <ul>
+    <li>Internet and network state: to load the world ranking and ads</li>
+    <li>Advertising ID (AD_ID) and Android ad permissions (ad topics and attribution): for Unity Ads</li>
+    <li>Receive boot completed, wake lock, foreground service, and read Google services configuration: used internally by Firebase and the ads SDK</li>
+  </ul>
+
+  <h2 id="rights">7. Your rights</h2>
+  <p>You can ask at any time to access, correct, delete or stop the processing of your personal information. You can delete your ranking entry yourself in the Records tab; for anything else, email <a href="mailto:hopalt@gmail.com">hopalt@gmail.com</a> and include the nickname shown in the ranking so we can find your entry. We will act on your request without delay, and within 10 days at the latest, and let you know the result. A nickname can be chosen only once in the app; email us if you need to change it.</p>
+
+  <h2 id="children">8. Children's privacy</h2>
+  <p>The app is not directed to children under 14 (under 13 in the United States), and it is set as not child-directed in Unity Ads. We do not knowingly collect personal information from children. If we learn that a ranking entry belongs to a child, we delete it without delay. Parents and guardians can ask for deletion at the contact above.</p>
+
+  <h2 id="security">9. Security</h2>
+  <ul>
+    <li>Communication between the app and the servers is encrypted (TLS).</li>
+    <li>The ranking database's security rules let each player create, change and delete only their own entry, refuse any field outside the defined set, and block reading and writing of every other kind of data.</li>
+    <li>Only the operator's account can access the Firebase console.</li>
+  </ul>
+
+  <h2 id="officer">10. Privacy contact and complaints</h2>
+  <p>Privacy officer: the operator of Hopalt · <a href="mailto:hopalt@gmail.com">hopalt@gmail.com</a></p>
+  <p>You may also contact the supervisory authority where you live. In Korea, you can report or seek advice from the Personal Information Infringement Report Center (privacy.kisa.or.kr, 118) or the Personal Information Dispute Mediation Committee (www.kopico.go.kr, 1833-6972).</p>
+
+  <h2 id="changes">11. Changes to this policy</h2>
+  <p>We may update this policy when the app, its ad settings or the services it uses change. Updates are posted on this page with a new effective date. Important changes that limit your rights will be announced on this page and in the app update notes at least 7 days before they take effect.</p>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-row">
+    <span>© 2026 Hopalt · Tochi's Flowerpot</span>
+    <div class="footer-links"><a href="../">Home</a><a href="../ko/privacy/" data-lang="ko">한국어</a><a href="mailto:hopalt@gmail.com">hopalt@gmail.com</a></div>
+  </div>
+</footer>
+</body>
+</html>

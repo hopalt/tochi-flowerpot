@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tochi-flowerpot.hopalt.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochi-flowerpot.hopalt.com/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tochi-flowerpot.hopalt.com/ko/"/>
+  </url>
+  <url>
+    <loc>https://tochi-flowerpot.hopalt.com/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochi-flowerpot.hopalt.com/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tochi-flowerpot.hopalt.com/ko/"/>
+  </url>
+  <url>
+    <loc>https://tochi-flowerpot.hopalt.com/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochi-flowerpot.hopalt.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tochi-flowerpot.hopalt.com/ko/privacy/"/>
+  </url>
+  <url>
+    <loc>https://tochi-flowerpot.hopalt.com/ko/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tochi-flowerpot.hopalt.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tochi-flowerpot.hopalt.com/ko/privacy/"/>
+  </url>
+</urlset>
