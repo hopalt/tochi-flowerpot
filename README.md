@@ -33,8 +33,8 @@ http://localhost:7360/ko/ 를 연다.
 - Google Play → 앱 콘텐츠 → 개인정보처리방침: `https://tochi-flowerpot.hopalt.com/ko/privacy/`
 - 스토어 등록정보 → 웹사이트: `https://tochi-flowerpot.hopalt.com/`
 
-## 출시 뒤 고칠 곳
+## 확인할 것
 
-- 소개 페이지 두 개의 “Google Play 출시 준비 중 / Coming soon to Google Play”를 스토어 링크(`https://play.google.com/store/apps/details?id=com.hopalt.moablock`)로 바꾼다. `class="button soon"`인 `<span>`을 `class="button"`인 `<a>`로 바꾸면 된다.
+- Google Play 버튼: 소개 두 페이지의 첫 버튼이 스토어 링크(`https://play.google.com/store/apps/details?id=com.hopalt.moablock`)다(2026-10-22 출시 뒤 교체).
 - iOS를 내면 처리방침의 광고 절(ATT)과 앱 권한 절을 iOS 기준으로 보완한다.
 - `app-ads.txt`의 `unity.com, 15672259, DIRECT` 줄이 Unity 대시보드 ‘토치의 화분’ 프로젝트의 조직 ID와 같은지 확인한다(www.hopalt.com의 파일을 옮겨 온 것).
